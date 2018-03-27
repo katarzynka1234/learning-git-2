@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":"watch:browser-sync",
     "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files 'css/*.css' '*.html''"
   },
   "repository": {
