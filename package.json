@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run buils:sass",
+    "build:sass":"node-sass --output-style compact -o css sass",
     "watch": "npm run watch:browser-sync",
     "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files 'css/*.css' '*.html''"
   },
