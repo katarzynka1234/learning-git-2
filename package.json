@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch":"npm run watch:browser-sync",
+    "watch": "npm run watch:browser-sync",
     "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files 'css/*.css' '*.html''"
   },
   "repository": {
@@ -23,5 +23,8 @@
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.23.6",
     "nu-html-checker": "^0.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.8.3"
   }
 }
