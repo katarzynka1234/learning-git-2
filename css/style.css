@@ -1,1 +1,9 @@
-body { background-color: #000; }
+body { margin: 0 auto; padding: 0; background-color: gray; text-align: center; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+h1 { color: #fff; }
+
+h2 { color: #ffeaa7; }
+
+p { color: #636e72; font-size: 20px; }
+
+.container { max-width: 300px; margin: 0 auto; }
